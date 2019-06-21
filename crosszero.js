@@ -105,7 +105,7 @@ function checkIfWin(a, b){
   
       if(gor == numberCells || ver == numberCells || diaLeft == numberCells || diaRight == numberCells){
         clearHandes();
-        alert("Игра окончена." playersSign + " игрок победил!");
+        alert("Игра окончена." + playersSign + " игрок победил!");
     } 
 }
 
