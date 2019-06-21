@@ -1,0 +1,20 @@
+﻿body {
+
+
+}
+
+.cross_zero {
+    width: 306px;
+    margin: 0 auto;
+}
+
+    .cross_zero .block {
+        width: 100px;
+        height: 100px;
+        border: 1px solid #000000;
+        cursor: pointer;
+        float: left;
+        text-align: center;
+        font-size: 100px;
+        line-height: 94px;
+    }
