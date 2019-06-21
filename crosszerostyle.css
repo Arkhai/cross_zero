@@ -3,31 +3,33 @@
 
 }
 :root {
-    --max-width: 550px;
+  --max-width: 350px;
 }
 
-.cross_zero {
-    max-width: var(--max-width);
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-    flex-basis: 100px;
+.cross_zero{
+  max-width: var(--max-width);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  flex-basis: 100px;
     margin: 0 auto;
+  
+}
+.cross_zero .block{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    float: left;
+    text-align: center;
+    font-size: 100px;
+    line-height: 94px;
 }
 
-    .cross_zero .block {
-        width: 100px;
-        height: 100px;
-        border: 1px solid #ccc;
-        cursor: pointer;
-        float: left;
-        text-align: center;
-        font-size: 100px;
-        line-height: 94px;
-    }
-
-.choose_field {
-    margin: 0 auto;
-    max-width: var(--max-width);
+.choose_field{
+  margin: 0 auto;
+ max-width: var(--max-width); 
+  
 }
+
